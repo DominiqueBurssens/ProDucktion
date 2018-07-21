@@ -1,0 +1,178 @@
+/*!
+ * Start Bootstrap - Agency v4.1.1 (https://startbootstrap.com/template-overviews/agency)
+ * Copyright 2013-2018 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-agency/blob/master/LICENSE)
+ */
+
+/* DB toegevoegd prijzentabel Bart Verhuur  */
+<style>
+* {
+    box-sizing: border-box;
+}
+
+.columns {
+    float: left;
+    width: 33.3%;
+    padding: 8px;
+}
+
+.price {
+    list-style-type: none;
+    border: 1px solid #eee;
+    margin: 0;
+    padding: 0;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+}
+
+.price:hover {
+    box-shadow: 0 8px 12px 0 rgba(0,0,0,0.2)
+}
+
+.price .header {
+    background-color: #111;
+    color: white;
+    font-size: 25px;
+}
+
+.price li {
+    border-bottom: 1px solid #eee;
+    padding: 20px;
+    text-align: left;
+}
+
+.price .grey {
+    background-color: #eee;
+    font-size: 20px;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.button {
+    background-color: darkgray;
+    border: none;
+    color: white;
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+@media only screen and (max-width: 600px) {
+    .columns {
+        width: 100%;
+    }
+}
+</style>
+
+<style>
+* {
+    box-sizing: border-box;
+}
+
+.columnsP {
+    float: left;
+    width: 33.33%;
+    padding: 8px;
+}
+
+.priceP {
+    list-style-type: none;
+    border: 1px solid #eee;
+    margin: 0;
+    padding: 0;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+}
+
+.priceP:hover {
+    box-shadow: 0 8px 12px 0 rgba(0,0,0,0.2)
+}
+
+.priceP .headerP {
+    background-color: #111;
+    color: white;
+    font-size: 25px;
+}
+
+.headerP {
+    float: left;
+    width: 100%;
+    padding: 8px;
+}
+
+.priceP li {
+    border-bottom: 1px solid #eee;
+    padding: 20px;
+    text-align: left;
+}
+
+.priceP .greyP {
+    background-color: #eee;
+    font-size: 20px;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*
+.greyP {
+	padding-bottom: 1px;
+	padding-left: 1px;
+	padding-right: 1px;
+	padding-top: 1px;
+}
+*/
+.greyP button {
+/*    background-color: darkgray; 
+    border: none;
+    color: white;
+    padding: 1px 25px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;   #000
+	*/
+    color: white;
+    background-color: black;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+	float: left;
+    width: 33.33%;
+    padding: 8px;
+}
+.greyP a {
+    text-decoration: none;
+    font-size: 22pxvw;
+    color: black;
+}
+
+.greyP button:hover, a:hover {
+    opacity: 0.7;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .columnsP {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .columnsP {
+        -ms-flex: 50%;
+        flex: 50%;
+        max-width: 50%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .columnsP {
+        -ms-flex: 100%;
+        flex: 100%;
+        max-width: 100%;
+    }
+}
+</style>
